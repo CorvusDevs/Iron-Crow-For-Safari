@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Iron Crow, Privacy Policy</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+/* ac-no-horizontal-scroll v1 */
+html, body { overflow-x: clip; max-width: 100%; }
+img, video, iframe { max-width: 100%; height: auto; }
+pre, table { max-width: 100%; overflow-x: auto; }
+
+:root {
+  --bg: #0e1013; --surface: #181b1f; --border: rgba(255,255,255,0.10);
+  --text: #e7ebf0; --muted: #9aa3ad;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+nav { position: fixed; top: 0; left: 0; right: 0; z-index: 50; display: flex; align-items: center;
+  justify-content: space-between; padding: 14px 24px; background: rgba(14,16,19,0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--border); }
+.nav-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; text-decoration: none; }
+.nav-brand img { width: 28px; height: 28px; border-radius: 7px; }
+.nav-links { display: flex; gap: 26px; list-style: none; margin: 0; padding: 0; }
+.nav-links a { text-decoration: none; color: var(--muted); font-size: 15px; }
+.nav-links a:hover { color: var(--text); }
+main { max-width: 720px; margin: 0 auto; padding: 130px 24px 80px; }
+h1 { letter-spacing: -0.02em; }
+h2 { margin-top: 38px; font-size: 1.25rem; }
+p, li { color: var(--text); }
+.muted { color: var(--muted); }
+footer { border-top: 1px solid var(--border); padding: 40px 24px; text-align: center; color: var(--muted); font-size: 0.9rem; }
+footer a { color: var(--muted); text-decoration: none; margin: 0 10px; }
+
+/* ac-nav-hamburger v1 */
+.nav-toggle { display: none; background: none; border: 1px solid var(--border, rgba(255,255,255,0.12));
+  border-radius: 8px; color: var(--text, #e8e8ed); cursor: pointer; padding: 8px; align-items: center; justify-content: center; }
+.nav-toggle svg { display: block; }
+.nav-brand { flex-shrink: 0; }
+@media (max-width: 720px) {
+  .nav-toggle { display: inline-flex; }
+  .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column;
+    background: var(--bg, rgba(10,10,12,0.95)); border-top: 1px solid var(--border, rgba(255,255,255,0.08));
+    border-bottom: 1px solid var(--border, rgba(255,255,255,0.08)); padding: 4px 24px 8px; margin: 0; list-style: none; gap: 0;
+    -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); }
+  .nav-links li { width: 100%; }
+  .nav-links li a { display: block; padding: 14px 0; border-top: 1px solid var(--border, rgba(255,255,255,0.08)); }
+  .nav-links li:first-child a { border-top: 0; }
+  body.nav-open .nav-links { display: flex; }
+  body.nav-open .nav-toggle { background: var(--surface, rgba(255,255,255,0.06)); }
+}
+/* ac-footer-mobile v1 */
+@media (max-width: 720px) { body { min-height: 0; } footer { padding-bottom: 24px; padding-top: 24px; } }
+</style>
+</head>
+<body>
+<nav>
+  <a class="nav-brand" href="index.html"><img src="icon.png" alt="Iron Crow"> Iron Crow</a>
+  <!-- ac-nav-hamburger v2 --><button class="nav-toggle" aria-label="Menu" aria-expanded="false" onclick="var o=document.body.classList.toggle('nav-open');this.setAttribute('aria-expanded',o);event.stopPropagation();"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button><script>(function(){document.addEventListener("click",function(e){if(!document.body.classList.contains("nav-open"))return;var n=document.querySelector("nav");if(n&&!n.contains(e.target)){document.body.classList.remove("nav-open");var b=document.querySelector(".nav-toggle");if(b)b.setAttribute("aria-expanded","false");}});})();</script>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="terms.html">Terms</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Iron Crow is built to protect your privacy, so it collects as little as possible.</p>
+
+  <h2>What we collect</h2>
+  <p>Nothing. Iron Crow does not collect, store, or transmit your browsing history, the sites you visit, or any personal information. There are no analytics and no tracking.</p>
+
+  <h2>Where your settings live</h2>
+  <p>Your filter-list choices, per-site rules, and custom filters are stored only on your device. They never leave it.</p>
+
+  <h2>Filter lists</h2>
+  <p>To block ads, the app downloads public filter lists (such as EasyList) directly from their providers. These are plain rule files. Your identity is not attached to those requests beyond the normal network information any download involves.</p>
+
+  <h2>Payments</h2>
+  <p>Iron Crow is a one-time purchase handled entirely by the App Store. We never see your payment details.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy? Email <a href="mailto:hello@corvusdevs.com">hello@corvusdevs.com</a>.</p>
+</main>
+
+<footer>
+  <div><a href="index.html">Home</a><a href="terms.html">Terms</a></div>
+  <p>© CorvusDevs. Iron Crow.</p>
+</footer>
+</body>
+</html>
